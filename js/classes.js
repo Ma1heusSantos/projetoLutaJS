@@ -67,6 +67,7 @@ class Stage{
     }
     update(){
         this.fighter1El = document.querySelector('.name');
+        console.log(this.fighter1El);
         this.fighter1El.innerHTML = this.fighter1.name;
         this.fighter2El = document.querySelector('.nameMonster');
         this.fighter2El.innerHTML = this.fighter2.name;
